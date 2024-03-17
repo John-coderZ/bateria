@@ -1,3 +1,7 @@
+document.body.addEventListener('touchstart',(event)=>{
+    playSound(event.code.toLowerCase())
+})
+
 document.body.addEventListener('keyup',(event)=>{
     playSound(event.code.toLowerCase())
 })
